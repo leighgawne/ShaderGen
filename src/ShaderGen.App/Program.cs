@@ -51,7 +51,7 @@ namespace ShaderGen.App
                 args[i] = args[i].Replace("\\\\", "\\");
             }
 
-            ArgumentSyntax.Parse(args, syntax =>
+            /*ArgumentSyntax.Parse(args, syntax =>
             {
                 syntax.DefineOption("ref", ref referenceItemsResponsePath, true, "The semicolon-separated list of references to compile against.");
                 syntax.DefineOption("src", ref compileItemsResponsePath, true, "The semicolon-separated list of source files to compile.");
@@ -61,7 +61,7 @@ namespace ShaderGen.App
                 syntax.DefineOption("processor", ref processorPath, false, "The path of an assembly containing IShaderSetProcessor types to be used to post-process GeneratedShaderSet objects.");
                 syntax.DefineOption("processorargs", ref processorArgs, false, "Custom information passed to IShaderSetProcessor.");
                 syntax.DefineOption("debug", ref debug, false, "Compiles the shader with debug information when supported.");
-            });
+            });*/
 
             referenceItemsResponsePath = NormalizePath(referenceItemsResponsePath);
             compileItemsResponsePath = NormalizePath(compileItemsResponsePath);

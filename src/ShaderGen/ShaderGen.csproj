@@ -1,6 +1,6 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
   <PropertyGroup>
-    <TargetFramework>netstandard2.0</TargetFramework>
+    <TargetFramework>net6.0</TargetFramework>
     <!-- Package stuff -->
     <PackageId>ShaderGen</PackageId>
     <Description>Translates C# code to HLSL and GLSL shader code.</Description>
